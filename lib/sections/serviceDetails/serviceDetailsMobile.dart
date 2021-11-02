@@ -139,7 +139,7 @@ class _ServiceDetailsMobileState extends State<ServiceDetailsMobile> {
                 child: CustomFilledBtn(
                   height: 40.0,
                   onPressed: () =>
-                      launchURL("https://wa.me/?text=Hi A2z tech!"),
+                      launchURL("https://wa.me/message/SUX7FROLNWRRD1"),
                   btnColor: Color(0xff34CB62),
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
