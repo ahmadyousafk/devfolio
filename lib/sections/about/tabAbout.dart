@@ -33,9 +33,9 @@ class AboutTab extends StatelessWidget {
             'assets/mob.png',
             height: height * 0.3,
           ),
-          SizedBox(
-            height: height * 0.03,
-          ),
+          // SizedBox(
+          //   height: height * 0.03,
+          // ),
           Align(
             alignment: Alignment.centerLeft,
             child: Text(

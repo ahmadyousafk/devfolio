@@ -39,7 +39,7 @@ class _MyAppState extends State<MyApp> {
         ChangeNotifierProvider(create: (context) => ThemeProvider()),
       ],
       child: MaterialApp(
-        debugShowCheckedModeBanner: false,
+        debugShowCheckedModeBanner: true,
         title: 'A2zTech',
         theme: ThemeStyles.themeData(_themeProvider.lightTheme, context),
         initialRoute: "/",

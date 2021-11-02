@@ -124,7 +124,8 @@ class ServiceDetailsDescription extends StatelessWidget {
             alignment: Alignment.center,
             child: CustomFilledBtn(
               height: 40.0,
-              onPressed: () => launchURL("https://wa.me/?text=Hi A2zTech!"),
+              onPressed: () =>
+                  launchURL("https://wa.me/message/SUX7FROLNWRRD1"),
               btnColor: Color(0xff34CB62),
               child: Row(
                 mainAxisSize: MainAxisSize.min,
@@ -136,28 +137,28 @@ class ServiceDetailsDescription extends StatelessWidget {
               ),
             ),
           ),
-          const SizedBox(height: 20.0),
-          Align(
-            alignment: Alignment.center,
-            child: CustomFilledBtn(
-              height: 40.0,
-              onPressed: () => launchURL(
-                  "https://www.upwork.com/freelancers/~0197b0f6aaeba9675f"),
-              btnColor: Color(0xff13A800),
-              child: Row(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  Image.network(
-                    "https://img.icons8.com/ios-filled/50/000000/upwork.png",
-                    height: 35.0,
-                    color: Colors.white,
-                  ),
-                  const SizedBox(width: 8.0),
-                  Text("Upwork"),
-                ],
-              ),
-            ),
-          ),
+          // const SizedBox(height: 20.0),
+          // Align(
+          //   alignment: Alignment.center,
+          //   child: CustomFilledBtn(
+          //     height: 40.0,
+          //     onPressed: () => launchURL(
+          //         "https://www.upwork.com/freelancers/~0197b0f6aaeba9675f"),
+          //     btnColor: Color(0xff13A800),
+          //     child: Row(
+          //       mainAxisSize: MainAxisSize.min,
+          //       children: [
+          //         Image.network(
+          //           "https://img.icons8.com/ios-filled/50/000000/upwork.png",
+          //           height: 35.0,
+          //           color: Colors.white,
+          //         ),
+          //         const SizedBox(width: 8.0),
+          //         Text("Upwork"),
+          //       ],
+          //     ),
+          //   ),
+          // ),
           const SizedBox(height: 35.0),
         ],
       ),
@@ -221,7 +222,7 @@ class _ServicesShowCaseState extends State<ServicesShowCase> {
               kProjectsTitles[_currentIndex] == kProjectsTitles[1]
                   ? InkWell(
                       onTap: () => launchURL(
-                          "https://play.google.com/store/apps/details?id=com.hmz.al_quran&pli=1"),
+                          "https://play.google.com/store/apps/details?id=com.akio.avokado"),
                       child: Icon(
                         FontAwesomeIcons.googlePlay,
                         color: Colors.green,

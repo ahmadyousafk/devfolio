@@ -42,11 +42,11 @@ final kCommunityLinks = [
 
 // Tools & Tech
 final kTools = [
-  "Android Develepoment",
+  "Android Developing",
+  "Web Developing",
   "Graphic Designing",
-  "Photo Shop",
   "Video Editing",
-  "Yoast Seo",
+  "Photo Editing",
   // "HTML",
   // "CSS",
   // "Bootstrap"
@@ -63,26 +63,18 @@ final kServicesIcons = [
 
 final kServicesTitles = [
   "Android Developing",
-  "UI/UX Designing",
+  "Web Developing",
   "Video Ediitng",
   "Graphic Designing",
-  "Seo",
+  "Digital Marketing",
 ];
 
-// final kServicesDescriptions = [
-//   "For now, I can only develop Android Apps using Flutter, that's because I don't own a MacBook right now so can't test or debug apps for iOS. Hopefully this missing piece will be filled soon :)",
-//   "Although I'm mainly a flutter developer but I do care about the UI/UX for my client. Hence, I also do UI designing for applications. So, feel free to ask me for getting you UI/UX for your apps",
-//   "Having a startup idea? Or maybe just want a prototype for your clients? With Flutter I can get you basic version of your app in no time and you are good to go for your project in future.",
-//   "I have been writing technical blogs on Medium for over a year now. So, I can get you technical blogs with awesome header images with interesting topics.\nMy Medium profile @mhamzadev",
-//   "Working as open source contributor on GitHub with 200+ stars and numerous forks on various projects liked and shared by other developers.\nMy GitHub Profile @mhmzdev",
-// ];
-
 final kServicesDescriptions = [
-  "Android app development via Flutter\n- Splash Screen\n- Firebase Auth/Cloud\n- REST APIs\n- Maps integration and more...!",
-  "Modern UI/UX Designing\n- Adobe XD\n- Mobile & Web designs\n- Interactive UI designs\n- Responsiveness...!",
+  "Android app development via \n- flutter\n- React Native\n- Java and more...!",
+  "Web Designing via \n- php Laravel\n- wordpress\n- Html, Css, java Script and more\n-And of course Responsiveness...!",
   "Video editing via Adobe\n- Working Adobe premiur pro\n- Quick & unique working...!",
   "Graphic Designing\n- Photo shop\n- Graphics via illustrator\n- unique Designs...!",
-  "Apps And Web Seo\n- Seo Friendly Articls\n- Website Seo friendly\n- Application Seo friendly...!",
+  "Services\n- Premium Choice\n- Iqbal Marketing\n- Gem Stone...!",
 ];
 
 final kServicesLinks = [

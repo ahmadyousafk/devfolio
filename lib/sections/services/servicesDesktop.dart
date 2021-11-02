@@ -32,8 +32,7 @@ class _ServiceDesktopState extends State<ServiceDesktop> {
       child: Column(
         children: [
           CustomSectionHeading(text: "\nWhat I Do"),
-          CustomSectionSubHeading(
-              text: "I may not be perfect, but I'm surely of some help :)\n\n"),
+          CustomSectionSubHeading(text: "Here is what we are doing\n\n"),
           Column(
             children: [
               Row(
@@ -202,8 +201,8 @@ class ServiceCardBackWidget extends StatelessWidget {
                           children: [
                             CustomFilledBtn(
                               height: 40.0,
-                              onPressed: () =>
-                                  launchURL("https://wa.me/?text=Hi A2z Tech!"),
+                              onPressed: () => launchURL(
+                                  "https://wa.me/message/SUX7FROLNWRRD1"),
                               btnColor: Color(0xff34CB62),
                               child: Row(
                                 mainAxisSize: MainAxisSize.min,

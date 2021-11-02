@@ -94,7 +94,7 @@ class _HomeMobileState extends State<HomeMobile> {
                             fontWeight: FontWeight.w200),
                         text: [
                           "Web Developing",
-                          " Android Developing",
+                          "Android Developing",
                           "Graphic Designing",
                           "And Many-more Services"
                         ]),

@@ -91,7 +91,7 @@ class HomeTab extends StatelessWidget {
                         ),
                         text: [
                           "Web Developing",
-                          " Android Developing",
+                          "Android Developing",
                           "Graphic Designing",
                           "And Many-more Services"
                         ]),

@@ -32,7 +32,7 @@ class AboutMobile extends StatelessWidget {
           // CustomSectionSubHeading(text: "Get to know me :)"),
           Image.asset(
             'assets/mob.png',
-            height: height * 0.27,
+            height: height * 0.10,
           ),
           SizedBox(
             height: height * 0.01,

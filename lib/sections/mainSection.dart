@@ -56,11 +56,12 @@ class _MainPageState extends State<MainPage> {
           : i == 1
               ? MediaQuery.of(context).size.height * 1.05
               : i == 2
-                  ? MediaQuery.of(context).size.height * 1.98
+                  ? MediaQuery.of(context).size.height * 2.06
                   : i == 3
                       ? MediaQuery.of(context).size.height * 2.9
-                    : i == 4 ? MediaQuery.of(context).size.height * 3.5
-                      : MediaQuery.of(context).size.height * 4,
+                      : i == 4
+                          ? MediaQuery.of(context).size.height * 3.5
+                          : MediaQuery.of(context).size.height * 4,
       duration: Duration(seconds: 1),
       curve: Curves.easeInOut,
     );
@@ -77,10 +78,9 @@ class _MainPageState extends State<MainPage> {
       return Portfolio();
     } else if (i == 4) {
       return Team();
-    } else if (i == 5){
+    } else if (i == 5) {
       return Contact();
-    }
-    else if (i == 6) {
+    } else if (i == 6) {
       return Footer();
     } else {
       return Container();
