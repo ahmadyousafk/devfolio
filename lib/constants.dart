@@ -34,11 +34,11 @@ final kCommunityLogo = [
   'assets/dsc.png'
 ];
 
-final kCommunityLinks = [
-  "https://play.google.com/store/apps/details?id=com.akio.avokado",
-  "https://a2ztech.org/",
-  "https://amsecind.com/"
-];
+// final kCommunityLinks = [
+//   "https://play.google.com/store/apps/details?id=com.akio.avokado",
+//   "https://a2ztech.org/",
+//   "https://amsecind.com/"
+// ];
 
 // Tools & Tech
 final kTools = [

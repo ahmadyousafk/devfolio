@@ -167,7 +167,7 @@ class AboutTab extends StatelessWidget {
               for (int i = 0; i < kCommunityLogo.length; i++)
                 CommunityIconBtn(
                   icon: kCommunityLogo[i],
-                  link: kCommunityLinks[i],
+                  // link: kCommunityLinks[i],
                   height: _communityLogoHeight[i],
                 ),
             ],

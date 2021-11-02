@@ -35,7 +35,7 @@ class AboutMobile extends StatelessWidget {
             height: height * 0.10,
           ),
           SizedBox(
-            height: height * 0.01,
+            height: height * 0.02,
           ),
           Align(
             alignment: Alignment.centerLeft,
@@ -162,7 +162,7 @@ class AboutMobile extends StatelessWidget {
               for (int i = 0; i < kCommunityLogo.length; i++)
                 CommunityIconBtn(
                   icon: kCommunityLogo[i],
-                  link: kCommunityLinks[i],
+                  // link: kCommunityLinks[i],
                   height: _communityLogoHeight[i],
                 ),
             ],
