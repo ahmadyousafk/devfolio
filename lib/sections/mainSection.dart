@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/rendering.dart';
 import 'package:folio/provider/themeProvider.dart';
+import 'package:folio/sections/team/team.dart';
 import 'package:provider/provider.dart';
 import 'package:universal_html/html.dart' as html;
 import 'package:flutter/gestures.dart';
@@ -34,6 +35,7 @@ class _MainPageState extends State<MainPage> {
     "ABOUT",
     "SERVICES",
     "PROJECTS",
+    "OUR TEAM",
     "CONTACT"
   ];
 
@@ -43,6 +45,7 @@ class _MainPageState extends State<MainPage> {
     Icons.settings,
     Icons.build,
     Icons.article,
+    Icons.people_alt_rounded,
     Icons.phone,
   ];
 
@@ -56,6 +59,7 @@ class _MainPageState extends State<MainPage> {
                   ? MediaQuery.of(context).size.height * 1.98
                   : i == 3
                       ? MediaQuery.of(context).size.height * 2.9
+                    : i == 4 ? MediaQuery.of(context).size.height * 3.5
                       : MediaQuery.of(context).size.height * 4,
       duration: Duration(seconds: 1),
       curve: Curves.easeInOut,
@@ -72,8 +76,11 @@ class _MainPageState extends State<MainPage> {
     } else if (i == 3) {
       return Portfolio();
     } else if (i == 4) {
+      return Team();
+    } else if (i == 5){
       return Contact();
-    } else if (i == 5) {
+    }
+    else if (i == 6) {
       return Footer();
     } else {
       return Container();
@@ -274,8 +281,8 @@ class _MainPageState extends State<MainPage> {
         color: theme.lightTheme ? Colors.white : Colors.grey[900],
         child: Padding(
           padding: const EdgeInsets.fromLTRB(0, 25.0, 0, 0),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
+          child: ListView(
+            // crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Center(
                 child: NavBarLogo(
