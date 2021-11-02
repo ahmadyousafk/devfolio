@@ -7,23 +7,23 @@ class ThemeStyles {
         ?
         // Light Theme
         ThemeData(
-            primarySwatch: Colors.red,
             primaryColorLight: kPrimaryColor,
             brightness: Brightness.light,
             primaryColor: kPrimaryColor,
-            accentColor: Colors.black,
             highlightColor: Colors.black,
             canvasColor: Colors.white,
+            colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.red)
+                .copyWith(secondary: Colors.black),
           )
         // Dark Theme
         : ThemeData(
             brightness: Brightness.dark,
-            primarySwatch: Colors.red,
             primaryColorDark: kPrimaryColor,
             primaryColor: kPrimaryColor,
-            accentColor: kPrimaryColor,
             highlightColor: kPrimaryColor,
             canvasColor: Colors.white,
+            colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.red)
+                .copyWith(secondary: kPrimaryColor),
           );
   }
 }

@@ -102,7 +102,7 @@ final kProjectsBanner = [
 ];
 
 final kProjectsIcons = [
-  "assets/projects/medkit.png",
+  "assets/projects/medkit.jpg",
   "assets/projects/quran.png",
   "assets/projects/hereiam.png",
   "assets/projects/covid.png",
