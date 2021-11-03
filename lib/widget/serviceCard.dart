@@ -10,6 +10,7 @@ import 'package:url_launcher/url_launcher.dart';
 class ServiceCard extends StatefulWidget {
   final String serviceIcon;
   final String serviceTitle;
+  final String serviceHeading;
   final String serviceDescription;
   final String serviceLink;
   final double cardWidth;
@@ -19,6 +20,7 @@ class ServiceCard extends StatefulWidget {
   const ServiceCard({
     @required this.serviceIcon,
     this.serviceTitle,
+    this.serviceHeading,
     this.serviceDescription,
     this.serviceLink,
     this.cardHeight,
@@ -123,7 +125,8 @@ class _ServiceCardState extends State<ServiceCard> {
             children: [
               Image.asset(
                 widget.serviceIcon,
-                height: height * 0.125,
+                height: height * 0.200,
+                width: width * 0.600,
               ),
               SizedBox(
                 height: height * 0.02,

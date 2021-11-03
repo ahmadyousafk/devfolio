@@ -184,21 +184,11 @@ final kTeamTitles = [
 ];
 
 final kTeamDescriptions = [
-  "Skills\n- E Commerce specialist\n- Amazon specialist...!",
-  "Skills\n- php Laravel\n- Mobile App Development\n- Digital artist...!",
-  "Skills\n- Mobile App Development\n- Web Development\n- UX/UI Designer...!",
-  "Skills\n- Mobile App Development\n- Web Development\n-UX/UI Designer...!",
-  "Skills\n- Web Development\n- PHP Laravel...!",
-  "Skills\n- Web Development\n- PHP Laravel...!",
-  "Skills\n- Web Development\n- PHP Laravel...!"
+  "Skills\n\n- E Commerce specialist\n- Amazon specialist...!",
+  "Skills\n\n- Mobile App Development\n- php Laravel\n- Digital artist...!",
+  "Skills\n\n- Mobile App Development\n- Web Development\n- UX/UI Designer...!",
+  "Skills\n\n- Mobile App Development\n- Web Development\n-UX/UI Designer...!",
+  "Skills\n\n- Web Development\n- PHP Laravel\n- Wordpress...!",
+  "Skills\n\n- Web Development\n- PHP Laravel\n- Wordpress...!",
+  "Skills\n\n- Web Development\n- PHP Laravel\n- Wordpress...!"
 ];
-
-// final kTeamLinks = [
-//   "https://play.google.com/store/apps/details?id=com.akio.avokado",
-//   "https://play.google.com/store/apps/details?id=com.a2ztech.drop247",
-//   "https://www.instagram.com/p/CTHIF8XhWlA/",
-//   "https://www.instagram.com/p/CTHIF8XhWlA/",
-//   "https://amsecind.com/",
-//   "https://amsecind.com/",
-//   "https://amsecind.com/"
-// ];
