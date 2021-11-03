@@ -164,7 +164,7 @@ final kContactDetails = [
   "info@a2ztech.org"
 ];
 const kTeamIcons = [
-  "assets/Team/hassan.png",
+  "assets/Team/hassan.jpg",
   "assets/Team/ahmad.jpg",
   "assets/services/open.png",
   "assets/services/open.png",
