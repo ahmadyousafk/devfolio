@@ -52,7 +52,7 @@ final kTools = [
   // "Bootstrap"
 ];
 
-// services
+// services section
 final kServicesIcons = [
   "assets/services/app.png",
   "assets/services/ui.png",
@@ -85,7 +85,7 @@ final kServicesLinks = [
   "https://amsecind.com/"
 ];
 
-// projects
+// projects section
 final kProjectsBanner = [
   "assets/projects/medkitB.png",
   "assets/projects/quranB.png",
@@ -163,6 +163,8 @@ final kContactDetails = [
   "(+92) 300-4168001",
   "info@a2ztech.org"
 ];
+
+//Team Section
 const kTeamIcons = [
   "assets/Team/hassan.jpg",
   "assets/Team/ahmad.jpg",
