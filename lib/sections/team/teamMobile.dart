@@ -16,7 +16,7 @@ class TeamMobile extends StatelessWidget {
     return Container(
       child: Column(
         children: [
-          CustomSectionHeading(text: "\nOur Team"),
+          CustomSectionHeading(text: "\nTeam"),
           CustomSectionSubHeading(text: "Here is over hardworking team\n\n"),
           CarouselSlider.builder(
             itemCount: 5,
@@ -25,8 +25,8 @@ class TeamMobile extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 10.0),
               child: ServiceCard(
                 cardWidth: width < 650 ? width * 0.8 : width * 0.5,
-                serviceIcon: kServicesIcons[i],
-                serviceTitle: kServicesTitles[i],
+                serviceIcon: kTeamIcons[i],
+                serviceTitle: kTeamTitles[i],
                 serviceDescription: kServicesDescriptions[i],
                 serviceLink: kServicesLinks[i],
                 cardBack: ServiceCardBackWidget(

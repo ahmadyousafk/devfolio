@@ -163,3 +163,18 @@ final kContactDetails = [
   "(+92) 300-4168001",
   "info@a2ztech.org"
 ];
+const kTeamIcons = [
+  "assets/services/open.png",
+  "assets/services/open.png",
+  "assets/services/open.png",
+  "assets/services/open.png",
+  "assets/services/open.png",
+];
+
+final kTeamTitles = [
+  "Jamshaid Malik",
+  "Yasir Ali",
+  "Faizan Ali",
+  "Ahmad yousaf",
+  "Hassan yousaf",
+];
