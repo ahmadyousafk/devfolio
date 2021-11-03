@@ -164,17 +164,41 @@ final kContactDetails = [
   "info@a2ztech.org"
 ];
 const kTeamIcons = [
+  "assets/Team/hassan.png",
+  "assets/Team/ahmad.jpg",
   "assets/services/open.png",
   "assets/services/open.png",
   "assets/services/open.png",
-  "assets/services/open.png",
-  "assets/services/open.png",
+  "assets/Team/umar.jpg",
+  "assets/services/open.png"
 ];
 
 final kTeamTitles = [
+  "Hassan Yousaf",
+  "Ahmad Yousaf",
   "Jamshaid Malik",
   "Yasir Ali",
   "Faizan Ali",
-  "Ahmad yousaf",
-  "Hassan yousaf",
+  "Muhammad Umar",
+  "Zaman Javed"
 ];
+
+final kTeamDescriptions = [
+  "Android app development via \n- flutter\n- React Native\n- Java and more...!",
+  "Web Designing via \n- php Laravel\n- wordpress\n- Html, Css, java Script and more\n-And of course Responsiveness...!",
+  "Video editing via Adobe\n- Working Adobe premiur pro\n- Quick & unique working...!",
+  "Graphic Designing\n- Photo shop\n- Graphics via illustrator\n- unique Designs...!",
+  "Services\n- Premium Choice\n- Iqbal Marketing\n- Gem Stone...!",
+  "Services\n- Premium Choice\n- Iqbal Marketing\n- Gem Stony...!",
+  "Services\n- Premium Choice\n- Iqbal Marketing\n- Gem Ston...!"
+];
+
+// final kTeamLinks = [
+//   "https://play.google.com/store/apps/details?id=com.akio.avokado",
+//   "https://play.google.com/store/apps/details?id=com.a2ztech.drop247",
+//   "https://www.instagram.com/p/CTHIF8XhWlA/",
+//   "https://www.instagram.com/p/CTHIF8XhWlA/",
+//   "https://amsecind.com/",
+//   "https://amsecind.com/",
+//   "https://amsecind.com/"
+// ];

@@ -16,22 +16,22 @@ class TeamMobile extends StatelessWidget {
     return Container(
       child: Column(
         children: [
-          CustomSectionHeading(text: "\nTeam"),
+          CustomSectionHeading(text: "\nOur Team"),
           CustomSectionSubHeading(text: "Here is over hardworking team\n\n"),
           CarouselSlider.builder(
-            itemCount: 5,
+            itemCount: 7,
             itemBuilder: (BuildContext context, int itemIndex, int i) =>
                 Padding(
-              padding: const EdgeInsets.symmetric(vertical: 10.0),
+              padding: const EdgeInsets.symmetric(vertical: 15.0),
               child: ServiceCard(
                 cardWidth: width < 650 ? width * 0.8 : width * 0.5,
                 serviceIcon: kTeamIcons[i],
                 serviceTitle: kTeamTitles[i],
-                serviceDescription: kServicesDescriptions[i],
-                serviceLink: kServicesLinks[i],
+                serviceDescription: kTeamDescriptions[i],
+                // serviceLink: kTeamLinks[i],
                 cardBack: ServiceCardBackWidget(
-                  serviceTitle: kServicesTitles[i],
-                  serviceDesc: kServicesDescriptions[i],
+                  serviceTitle: kTeamTitles[i],
+                  serviceDesc: kTeamDescriptions[i],
                   themeProvider: _themeProvider,
                   height: height,
                   width: width,
