@@ -67,7 +67,7 @@ class _TeamDesktopState extends State<TeamDesktop> {
               Row(
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  for (int index = 3; index < kServicesIcons.length; index++)
+                  for (int index = 3; index < kTeamIcons.length; index++)
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 15.0),
                       child: WidgetAnimator(
@@ -77,13 +77,13 @@ class _TeamDesktopState extends State<TeamDesktop> {
                               width < 1200 ? height * 0.37 : height * 0.35,
                           serviceIcon: _themeProvider.lightTheme && index == 4
                               ? "assets/services/open_b.png"
-                              : kServicesIcons[index],
-                          serviceTitle: kServicesTitles[index],
-                          serviceDescription: kServicesDescriptions[index],
-                          serviceLink: kServicesLinks[index],
+                              : kTeamIcons[index],
+                          serviceTitle: kTeamTitles[index],
+                          serviceDescription: kTeamDescriptions[index],
+                          // serviceLink: kTeamLinks[index],
                           cardBack: ServiceCardBackWidget(
-                            serviceDesc: kServicesDescriptions[index],
-                            serviceTitle: kServicesTitles[index],
+                            serviceDesc: kTeamDescriptions[index],
+                            serviceTitle: kTeamTitles[index],
                             themeProvider: _themeProvider,
                             height: height,
                             width: width,
@@ -135,34 +135,34 @@ class ServiceCardBackWidget extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 25.0),
-          MaterialButton(
-            hoverColor: kPrimaryColor.withAlpha(150),
-            shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(5.0),
-                side: BorderSide(color: kPrimaryColor)),
-            onPressed: () {
-              serviceTitle == kServicesTitles[3]
-                  ? launchURL(kServicesLinks[3])
-                  : serviceTitle == kServicesTitles[4]
-                      ? launchURL(kServicesLinks[4])
-                      : Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (_) => ServiceDetails(
-                              title: serviceTitle,
-                              dec: serviceDesc,
-                            ),
-                          ),
-                        );
-            },
-            child: Text(
-              "Details",
-              style: GoogleFonts.montserrat(
-                fontWeight: FontWeight.w300,
-                color: _themeProvider.lightTheme ? Colors.black : Colors.white,
-              ),
-            ),
-          ),
+          // MaterialButton(
+          //   hoverColor: kPrimaryColor.withAlpha(150),
+          //   shape: RoundedRectangleBorder(
+          //       borderRadius: BorderRadius.circular(5.0),
+          //       side: BorderSide(color: kPrimaryColor)),
+          //   onPressed: () {
+          //     serviceTitle == kServicesTitles[3]
+          //         ? launchURL(kServicesLinks[3])
+          //         : serviceTitle == kServicesTitles[4]
+          //             ? launchURL(kServicesLinks[4])
+          //             : Navigator.push(
+          //                 context,
+          //                 MaterialPageRoute(
+          //                   builder: (_) => ServiceDetails(
+          //                     title: serviceTitle,
+          //                     dec: serviceDesc,
+          //                   ),
+          //                 ),
+          //               );
+          //   },
+          //   child: Text(
+          //     "Details",
+          //     style: GoogleFonts.montserrat(
+          //       fontWeight: FontWeight.w300,
+          //       color: _themeProvider.lightTheme ? Colors.black : Colors.white,
+          //     ),
+          //   ),
+          // ),
           const SizedBox(height: 10.0),
           Container(
             width: 250.0,

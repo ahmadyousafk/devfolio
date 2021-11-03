@@ -166,11 +166,11 @@ final kContactDetails = [
 const kTeamIcons = [
   "assets/Team/hassan.jpg",
   "assets/Team/ahmad.jpg",
-  "assets/services/open.png",
-  "assets/services/open.png",
-  "assets/services/open.png",
+  "assets/Team/jamshaid.jpg",
+  "assets/Team/yasir.jpg",
+  "assets/Team/faizan.jpg",
   "assets/Team/umar.jpg",
-  "assets/services/open.png"
+  "assets/Team/zaman.jpg",
 ];
 
 final kTeamTitles = [
@@ -184,13 +184,13 @@ final kTeamTitles = [
 ];
 
 final kTeamDescriptions = [
-  "Android app development via \n- flutter\n- React Native\n- Java and more...!",
-  "Web Designing via \n- php Laravel\n- wordpress\n- Html, Css, java Script and more\n-And of course Responsiveness...!",
-  "Video editing via Adobe\n- Working Adobe premiur pro\n- Quick & unique working...!",
-  "Graphic Designing\n- Photo shop\n- Graphics via illustrator\n- unique Designs...!",
-  "Services\n- Premium Choice\n- Iqbal Marketing\n- Gem Stone...!",
-  "Services\n- Premium Choice\n- Iqbal Marketing\n- Gem Stony...!",
-  "Services\n- Premium Choice\n- Iqbal Marketing\n- Gem Ston...!"
+  "Skills\n- E Commerce specialist\n- Amazon specialist...!",
+  "Skills\n- php Laravel\n- Mobile App Development\n- Digital artist...!",
+  "Skills\n- Mobile App Development\n- Web Development\n- UX/UI Designer...!",
+  "Skills\n- Mobile App Development\n- Web Development\n-UX/UI Designer...!",
+  "Skills\n- Web Development\n- PHP Laravel...!",
+  "Skills\n- Web Development\n- PHP Laravel...!",
+  "Skills\n- Web Development\n- PHP Laravel...!"
 ];
 
 // final kTeamLinks = [
