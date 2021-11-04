@@ -89,7 +89,15 @@ class AboutTab extends StatelessWidget {
           ),
           Row(
             children: [
-              for (int i = 0; i < kTools.length; i++)
+              for (int i = 0; i < 3; i++)
+                ToolTechWidget(
+                  techName: kTools[i],
+                ),
+            ],
+          ),
+          Row(
+            children: [
+              for (int i = 3; i < 5; i++)
                 ToolTechWidget(
                   techName: kTools[i],
                 ),
@@ -117,10 +125,10 @@ class AboutTab extends StatelessWidget {
                     data: "Company",
                     information: "A2z Tech",
                   ),
-                  AboutMeMetaData(
-                    data: "Age",
-                    information: "30",
-                  ),
+                  // AboutMeMetaData(
+                  //   data: "Age",
+                  //   information: "30",
+                  // ),
                 ],
               ),
               SizedBox(
@@ -133,10 +141,10 @@ class AboutTab extends StatelessWidget {
                     data: "Email",
                     information: "info@a2ztech.org",
                   ),
-                  AboutMeMetaData(
-                    data: "From",
-                    information: "Muridke, PK",
-                  ),
+                  // AboutMeMetaData(
+                  //   data: "From",
+                  //   information: "Muridke, PK",
+                  // ),
                 ],
               ),
             ],

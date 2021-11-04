@@ -43,7 +43,7 @@ class PortfolioMobileTab extends StatelessWidget {
           OutlinedCustomBtn(
               btnText: "See More",
               onPressed: () {
-                launchURL("https://a2ztech.org/");
+                launchURL("https://a2ztech.org/our-portfolio");
               })
         ],
       ),
