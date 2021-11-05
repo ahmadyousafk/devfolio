@@ -182,7 +182,7 @@ final kTeamTitles = [
   "Yasir Ali",
   "Faizan Ali",
   "Muhammad Umar",
-  "Zaman Javed"
+  "Zaman bhai"
 ];
 
 final kTeamDescriptions = [
