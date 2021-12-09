@@ -69,7 +69,7 @@ class _ServiceCardState extends State<ServiceCard> {
                 bottom: isHover
                     ? BorderSide(
                         color: kPrimaryColor,
-                        width: 3.0,
+                        width: 4.0,
                       )
                     : BorderSide(),
               ),

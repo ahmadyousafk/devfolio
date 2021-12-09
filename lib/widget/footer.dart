@@ -21,14 +21,15 @@ class Footer extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             AdaptiveText(
-              "Developed in 💙 with ",
+              "Developed in with ",
               style: GoogleFonts.montserrat(
                 fontWeight: FontWeight.w300,
                 color: _themeProvider.lightTheme ? Colors.black : Colors.white,
               ),
             ),
             InkWell(
-              onTap: () => launchURL("https://github.com/mhmzdev/DevFolio"),
+              onTap: () =>
+                  launchURL("https://a2ztech.org/about-a2z-technologies"),
               child: Text(
                 "Flutter",
                 style: TextStyle(color: Colors.blue),

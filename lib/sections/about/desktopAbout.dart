@@ -96,12 +96,28 @@ class AboutDesktop extends StatelessWidget {
                       ),
                       Row(
                         children: [
-                          for (int i = 0; i < kTools.length; i++)
+                          for (int i = 0; i < 3; i++)
                             ToolTechWidget(
                               techName: kTools[i],
                             ),
                         ],
                       ),
+                      Row(
+                        children: [
+                          for (int i = 3; i < 5; i++)
+                            ToolTechWidget(
+                              techName: kTools[i],
+                            ),
+                        ],
+                      ),
+                      // Row(
+                      //   children: [
+                      //     for (int i = 0; i < kTools.length; i++)
+                      //       ToolTechWidget(
+                      //         techName: kTools[i],
+                      //       ),
+                      //   ],
+                      // ),
                       SizedBox(
                         height: height * 0.02,
                       ),

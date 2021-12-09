@@ -186,7 +186,7 @@ final kTeamTitles = [
 ];
 
 final kTeamDescriptions = [
-  "Skills\n\n- E Commerce specialist\n- Amazon specialist...!",
+  "Skills\n\n- E Commerce specialist\n- Amazon specialist\n- Digital Marketing...!",
   "Skills\n\n- Mobile App Development\n- php Laravel\n- Digital artist...!",
   "Skills\n\n- Mobile App Development\n- Web Development\n- UX/UI Designer...!",
   "Skills\n\n- Mobile App Development\n- Web Development\n-UX/UI Designer...!",

@@ -38,16 +38,19 @@ class _MyAppState extends State<MyApp> {
       providers: [
         ChangeNotifierProvider(create: (context) => ThemeProvider()),
       ],
-      child: MaterialApp(
-        debugShowCheckedModeBanner: true,
-        title: 'A2zTech',
-        theme: ThemeStyles.themeData(_themeProvider.lightTheme, context),
-        initialRoute: "/",
-        routes: {
-          "/": (context) => MainPage(),
-          "/workTogether": (context) => GetInTouch(),
-          "/details": (context) => ServiceDetails()
-        },
+      child: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: MaterialApp(
+          debugShowCheckedModeBanner: true,
+          title: 'A2zTech',
+          theme: ThemeStyles.themeData(_themeProvider.lightTheme, context),
+          initialRoute: "/",
+          routes: {
+            "/": (context) => MainPage(),
+            "/workTogether": (context) => GetInTouch(),
+            "/details": (context) => ServiceDetails()
+          },
+        ),
       ),
     );
   }
