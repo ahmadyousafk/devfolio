@@ -7,20 +7,14 @@ const Color kPrimaryColor = Color(0xffC0392B);
 // Social Media
 const kSocialIcons = [
   "https://img.icons8.com/metro/208/ffffff/facebook-new--v2.png",
-  // "https://img.icons8.com/ios-glyphs/480/ffffff/instagram-new.png",
-  // "https://img.icons8.com/android/480/ffffff/twitter.png",
   "https://img.icons8.com/metro/308/ffffff/linkedin.png",
-  // "https://img.icons8.com/material-rounded/384/ffffff/github.png",
-  // "https://img.icons8.com/ios-filled/500/ffffff/medium-monogram--v1.png"
+  
 ];
 
 const kSocialLinks = [
   "https://facebook.com/a2ztech786",
-  // "https://instagram.com/mhmzdev",
-  // "https://twitter.com/mhmzdev",
   "https://linkedin.com/in/yousaf-zulpich-4069321a4",
-  // "https://github.com/mhmzdev",
-  // "https://mhamzadev.medium.com"
+  
 ];
 
 // URL Launcher
